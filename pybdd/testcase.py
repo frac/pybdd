@@ -11,7 +11,7 @@ class Testcase(object):
 
         print "running filename %s" % self.filename
         try:
-            structure = Parser().process( (open(self.filename, 'r').read() )
+            structure = Parser().process( open(self.filename, 'r').read() )
         except:
             raise ConfigFileException("file not found  %s" % self.filename)
 
