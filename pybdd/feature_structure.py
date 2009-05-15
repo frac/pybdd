@@ -1,4 +1,4 @@
-
+from pybdd.utils import slug_me
 
 class FeatureStructure(object):
     def __init__(self):
@@ -7,5 +7,5 @@ class FeatureStructure(object):
     def add_feature_name(self, name):
         if self.feature_name: 
             raise Exception("feature name have already been defined")
-
-        self.feature_name = name.split(":")[1].strip()
+        self.feature_name = slug_me(name)
+        self.feature_desc.append(name)

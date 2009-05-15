@@ -1,7 +1,6 @@
 from pybdd.feature_structure import FeatureStructure
+from pybdd.constants import FEATURE_MARKER
 
-
-FEATURE_MARKER = "Feature:"
 
 
 class Parser(object):

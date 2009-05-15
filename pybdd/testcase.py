@@ -10,10 +10,10 @@ class Testcase(object):
         """ try to read, parse and execute the testcase """
 
         print "running filename %s" % self.filename
-        try:
-            structure = Parser().process( open(self.filename, 'r').read() )
-        except:
-            raise ConfigFileException("file not found  %s" % self.filename)
+        #try:
+        structure = Parser().process( open(self.filename, 'r').read() )
+        #except:
+        #    raise ConfigFileException("file not found  %s" % self.filename)
 
 
 

@@ -1,3 +1,28 @@
+h2.pyBdd
+
+yeah the name is silly and pretensious but you have to start somewhere
+
+h3.What?
+    
 Just a silly project and a dirty hack (so far) to see if I can use a DSL to generate and run tests in python
+
+h3.Why?
+
+Because I didn't find what I needed so I shut up and coded
+
+h3.Really?
+
+Not exactally. The most excelent pyccuracy almost does what I want, I could rewrite the browser driver to make it run tests not only browser tests..
+
+h3.Haven't you heard that BDD in python is done on doctest?
+
+Oh! Thousands of times, ok maybe couple of times, but doctest does not cut for me:
+
+I want to write recipes of test, some thing like login as a user, do this, do that, this should happen.
+
+I try to do that in doctest I don't fell that it is too much DRY
+
+
+
 
 
