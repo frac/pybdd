@@ -10,6 +10,8 @@ class Core(object):
         result = 0
         for testfile in tests:
             testcase = Testcase(testfile)
-            result = testcase.run() || result
+            if testcase.run() != 0:
+                result = 1
+                break
 
         return result
