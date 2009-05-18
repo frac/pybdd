@@ -1,1 +1,1 @@
-FEATURE_MARKER = "Feature:"
+FEATURE_MARKER = "Feature"

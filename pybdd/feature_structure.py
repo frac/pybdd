@@ -9,3 +9,5 @@ class FeatureStructure(object):
             raise Exception("feature name have already been defined")
         self.feature_name = slug_me(name)
         self.feature_desc.append(name)
+    def add_feature_desc(self, line):
+        self.feature_desc.append( line.strip() )
